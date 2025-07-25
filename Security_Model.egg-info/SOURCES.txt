@@ -1,7 +1,0 @@
-README.md
-setup.py
-Security_Model.egg-info/PKG-INFO
-Security_Model.egg-info/SOURCES.txt
-Security_Model.egg-info/dependency_links.txt
-Security_Model.egg-info/top_level.txt
-networksecurity/__init__.py
