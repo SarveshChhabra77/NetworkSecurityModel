@@ -1,6 +1,6 @@
 pandas 
-seaborn
 numpy
 python-dotenv
-
--e .
+pymongo
+certifi
+##-e .
