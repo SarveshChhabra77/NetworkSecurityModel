@@ -8,9 +8,10 @@ import pymongo
 from networksecurity.exceptions.exception import NetworkSecurityException
 from networksecurity.logging.logger import logging
 
-
+## This file is to push the data to the mongadb
 load_dotenv()
 
+## Access the mongodb url
 MONGO_DB_URL=os.getenv('MONGO_DB_URL')
 print(MONGO_DB_URL)
 

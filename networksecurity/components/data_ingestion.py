@@ -35,7 +35,7 @@ class DataIngestion:
             self.mongo_client=pymongo.MongoClient(MONGO_DB_URL)
             collection=self.mongo_client[database_name][collection_name]
             df=pd.DataFrame(list(collection.find()))
-            ## bydefault one extra columns is added so we have to remove the columns i.e.  _id
+            ## by-default one extra columns is added so we have to remove the columns i.e.  _id
             if '_id' in df.columns.to_list():
                 df=df.drop(columns=['_id'],axis=1)
             

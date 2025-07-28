@@ -1,5 +1,5 @@
 import os
-
+import numpy as np
 
 '''
 Defining common constants variable for training pipeline
@@ -30,3 +30,18 @@ DATA_VALIDATION_VALID_DIR:str='validated'
 DATA_VALIDATION_INVALID_DIR:str='invalid'
 DATA_INGESTION_DRIFT_REPORT_DIR:str='drift_report'
 DATA_VALIDATION_DRIFT_REPORT_FILE_NAME:str='report.yaml'
+
+'''Data Transformation related constants start with Data_Transformation var name '''
+
+DATA_TRANSFORMATION_DIR_NAME:str='data_transformation'
+DATA_TRANSFORMATION_TRANSFORMED_DATA_DIR:str='transformed'
+DATA_TRANSFORMATION_TRANSFORMED_OBJECT_DIR:str='transformed_object'
+
+#  KNN imputer to replace nan value
+DATA_TRANSFORMATION_IMPUTER_PARAMS:dict={
+    'missing_values':np.nan,
+    'n_neighbors':3,
+    'weights':'uniform' # Corrected typo here
+}
+
+PREPROCESSING_OBJECT_FILE_NAME:str='preprocessing.pkl'
