@@ -70,7 +70,7 @@ class DataTransformation:
             target_feature_train_columns=train_df[TARGET_COLUMN]
             target_feature_train_columns=target_feature_train_columns.replace( -1 , 0 )
             
-            #testing datyframe
+            #testing dataframe
             input_feature_test_df=test_df.drop(columns=[TARGET_COLUMN],axis=1)
             target_feature_test_columns=test_df[TARGET_COLUMN]
             target_feature_test_columns=target_feature_test_columns.replace( -1 , 0 )
