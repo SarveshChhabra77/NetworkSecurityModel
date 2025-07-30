@@ -1,0 +1,10 @@
+artifact_location: file:///C:/Users/HP/OneDrive/Desktop/Network%20Security%20Model/mlruns/0/models/m-7efb2b123cac43dfba5e919ae05a993f/artifacts
+creation_timestamp: 1753885424419
+experiment_id: '0'
+last_updated_timestamp: 1753885436494
+model_id: m-7efb2b123cac43dfba5e919ae05a993f
+model_type: null
+name: model
+source_run_id: 7bf418b34bde4f8288f7180d443f1d1c
+status: 2
+status_message: null

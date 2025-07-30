@@ -3,10 +3,13 @@ numpy
 python-dotenv
 pymongo
 certifi
-pymongo[srv]==3.6
+pymongo[srv]
 scikit-learn
 scipy
 pyaml
 dill
 mlflow
+dagshub
+fastapi
+uvicorn
 ##-e .

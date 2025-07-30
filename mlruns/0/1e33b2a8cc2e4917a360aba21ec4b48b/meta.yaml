@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/HP/OneDrive/Desktop/Network%20Security%20Model/mlruns/0/1e33b2a8cc2e4917a360aba21ec4b48b/artifacts
+end_time: 1753893533936
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1e33b2a8cc2e4917a360aba21ec4b48b
+run_name: thundering-bird-75
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1753893516965
+status: 3
+tags: []
+user_id: HP

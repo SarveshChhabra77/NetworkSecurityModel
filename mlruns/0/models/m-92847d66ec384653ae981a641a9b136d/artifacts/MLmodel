@@ -1,0 +1,22 @@
+artifact_path: file:///C:/Users/HP/OneDrive/Desktop/Network%20Security%20Model/mlruns/0/models/m-92847d66ec384653ae981a641a9b136d/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.5
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.0
+mlflow_version: 3.1.4
+model_id: m-92847d66ec384653ae981a641a9b136d
+model_size_bytes: 27528928
+model_uuid: m-92847d66ec384653ae981a641a9b136d
+prompts: null
+run_id: 306c0333edbf4b50b1c5458a800393d7
+utc_time_created: '2025-07-29 18:58:15.086255'
