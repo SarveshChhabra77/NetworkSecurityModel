@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/HP/OneDrive/Desktop/Network%20Security%20Model/mlruns/0/68c77d34ab98439aa316f3414eafaca5/artifacts
+end_time: 1753895532186
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 68c77d34ab98439aa316f3414eafaca5
+run_name: persistent-toad-624
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1753895505897
+status: 3
+tags: []
+user_id: HP

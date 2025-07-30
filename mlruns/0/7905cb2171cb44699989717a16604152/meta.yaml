@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/HP/OneDrive/Desktop/Network%20Security%20Model/mlruns/0/7905cb2171cb44699989717a16604152/artifacts
+end_time: 1753895544414
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7905cb2171cb44699989717a16604152
+run_name: resilient-mouse-950
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1753895532426
+status: 3
+tags: []
+user_id: HP
